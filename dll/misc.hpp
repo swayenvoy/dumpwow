@@ -32,6 +32,8 @@
 #include <vector>
 #include <cstdint>
 
+#include <hadesmem/region.hpp>
+
 namespace fs = std::experimental::filesystem;
 
 fs::path get_exe_path();
